@@ -17,3 +17,5 @@ REGEX_CUFE_AJUSTADO = r'\b([0-9a-fA-F\s\n]{95,200})\b'
 Que permite Espacios (\s) entre caracteres hexadecimales y saltos de línea (\n)
 
 **Por efectos de legibilidad en pruebas se usa la función clear_database() para limpiar todos los registros**
+💾 La base de datos `facturas.db` se crea automáticamente al ejecutar el script `main.py`.
+
