@@ -82,5 +82,5 @@ def main():
     
     conn.close()        
 if __name__ == "__main__":
-    clear_database() 
+    #clear_database() // Descomentar para limpiar la base de datos
     main()

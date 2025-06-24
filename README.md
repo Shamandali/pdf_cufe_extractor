@@ -1,7 +1,11 @@
 Extractor de CUFE desde PDFs
 
+Crear y activar el entorno
+python3 -m venv env
+source env/bin/activate
+
 Dependencias
-bash pip install PyMuPDF
+pip install PyMuPDF
 
 Ejecución
 python main.py
@@ -18,4 +22,4 @@ Que permite Espacios (\s) entre caracteres hexadecimales y saltos de línea (\n)
 
 **Por efectos de legibilidad en pruebas se usa la función clear_database() para limpiar todos los registros**
 💾 La base de datos `facturas.db` se crea automáticamente al ejecutar el script `main.py`.
-
+Las facturas deben estar en una carpeta`invoice`.
